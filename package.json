@@ -1,0 +1,25 @@
+{
+  "name": "personal-budget-dashboard",
+  "version": "0.0.1",
+  "homepage": "https://bhupeshgunda1.github.io/personal-budget-dashboard",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "chart.js": "^4.3.0",
+    "react": "^18.0.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.0.0",
+    "autoprefixer": "^10.0.0",
+    "gh-pages": "^5.0.0"
+  }
+}
